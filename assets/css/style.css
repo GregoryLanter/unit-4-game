@@ -1,0 +1,72 @@
+/**{
+    border-radius: 5px;
+    border: 1px solid blue
+}*/
+#bg_image{
+    width: 1350px;
+    height: 580px;
+    background-image: url(../images/bus.jpg);
+    background-repeat: no-repeat;
+    background-size: 1350px 580px;
+}
+
+#pic{
+    position: relative;
+    left: 23px;
+    /*float: left;
+    padding: 20px;*/
+}
+
+#enemy{
+    clear: both;
+    height: 23px; /*152px;*/
+    width: 390px;
+}
+.caption1{
+    color: white;
+    font-size: 30px;
+    position: relative;
+    left: 60%;
+}
+.caption2{
+    color: white;
+    font-size: 20px;
+    clear: both;
+    width: 129px;
+    height: 152px;
+}
+.picHolder{
+    float: left;    
+    background-color: white;
+    height: 125px;
+    width: 125px;
+    border: 3px solid green;
+}
+.name{
+    clear: both;
+    text-align: center;
+    font-size: 14px;
+}
+.caption3{
+    color: white;
+    font-size: 20px;
+    height: 23px; /*153px;*/
+    width: 130px;
+}
+.selected{
+    color: black;
+}
+.notSelected{
+    background-color: red;
+    border-color: black;
+}
+.fighter{
+    background-color: black;
+}
+#selectedHolder{
+    height: 128px;
+    width: 129px;
+}
+.reset{
+    display: none;
+}

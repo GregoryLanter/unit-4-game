@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <title>Barts Balloon Battle RPG</title>
+
+    <!-- Added link to the jQuery Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Added a link to Bootstrap-->
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">-->
+    <link rel="stylesheet" type="text/css" href="assets\css\style.css">
+    <script type="text/javascript"src="assets\javascript\game.js"></script>
+</head>
+<body>
+    <div id="bg_image">
+        <div class="caption1">
+            Bart's Ballon Battle RPG!
+        </div>
+        <div class="picHolder bart" value = "bart">
+            <div class="name">Bart Simpsons</div>
+            <img id="pic" class="image" src="assets\images\Bart.png" alt="Bart Simpson" width="80" height="80">
+            <div class="name">120</div>
+        </div>
+        <div class="picHolder jimbo" value = "jimbo">
+            <div class="name">Jimbo Jones</div>
+            <img id="pic" class="image" src="assets\images\jimbo.jpg" alt="Jimbo Jones" width="80" height="80">
+            <div class="name">150</div>
+        </div>
+        <div class="picHolder milhouse" value = "milhouse">
+            <div class="name">Milhouse Van Houten</div>
+            <img id="pic" class="image" src="assets\images\milhouse.jpg" alt="Milhouse Van Houten" width="80" height="80">
+            <div class="name">100</div>
+        </div>
+        <div class="picHolder nelson" value = "nelson">  
+            <div class="name">Nelson Muntz</div>
+            <img id="pic" class="image" src="assets\images\nelson.png" alt="Nelson Muntz" width="80" height="80">
+            <div class="name">180</div>
+        </div>
+        <div class="caption2">
+                Your character
+                <div id="selectedHolder"></div>
+        </div>    
+        <div id="enemy" class="caption3">
+            Enemies Available To Attack
+            <div id="enemyHolder"></div>
+        </div>
+        <div class="caption3">
+            Fight Section
+            <div id="fighterHolder"></div>
+        </div>
+
+        <button>Attack</button>
+        <div id = "defender" class="caption3">Defender</div>
+        <div class="caption3"></div>
+        <div class="caption3"></div>
+        <div></div>
+        <button class="reset">Reset</button>
+    </div>
+</body>
