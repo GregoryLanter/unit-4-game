@@ -15,33 +15,35 @@
 <body>
     <div id="bg_image">
         <div class="caption1">
-            Bart's Ballon Battle RPG!
+            Bart's Battle RPG!
         </div>
-        <div class="picHolder bart" value = "bart">
-            <div class="name">Bart Simpsons</div>
-            <img id="pic" class="image" src="assets\images\Bart.png" alt="Bart Simpson" width="80" height="80">
-            <div class="name">120</div>
-        </div>
-        <div class="picHolder jimbo" value = "jimbo">
-            <div class="name">Jimbo Jones</div>
-            <img id="pic" class="image" src="assets\images\jimbo.jpg" alt="Jimbo Jones" width="80" height="80">
-            <div class="name">150</div>
-        </div>
-        <div class="picHolder milhouse" value = "milhouse">
-            <div class="name">Milhouse Van Houten</div>
-            <img id="pic" class="image" src="assets\images\milhouse.jpg" alt="Milhouse Van Houten" width="80" height="80">
-            <div class="name">100</div>
-        </div>
-        <div class="picHolder nelson" value = "nelson">  
-            <div class="name">Nelson Muntz</div>
-            <img id="pic" class="image" src="assets\images\nelson.png" alt="Nelson Muntz" width="80" height="80">
-            <div class="name">180</div>
+        <div class = "fighters">
+            <div class="picHolder bart" value = "bart">
+                <div class="name">Bart Simpsons</div>
+                <img id="pic" class="image" src="assets\images\Bart.png" alt="Bart Simpson" width="80" height="80">
+                <div id="bartHealth" class="name">120</div>
+            </div>
+            <div class="picHolder jimbo" value = "jimbo">
+                <div class="name">Jimbo Jones</div>
+                <img id="pic" class="image" src="assets\images\jimbo.jpg" alt="Jimbo Jones" width="80" height="80">
+                <div id="jimboHealth" class="name">150</div>
+            </div>
+            <div class="picHolder milhouse" value = "milhouse">
+                <div class="name">Milhouse Van Houten</div>
+                <img id="pic" class="image" src="assets\images\milhouse.jpg" alt="Milhouse Van Houten" width="80" height="80">
+                <div id="milhouseHealth" class="name">100</div>
+            </div>
+            <div class="picHolder nelson" value = "nelson">  
+                <div class="name">Nelson Muntz</div>
+                <img id="pic" class="image" src="assets\images\nelson.png" alt="Nelson Muntz" width="80" height="80">
+                <div id="nelsonHealth" class="name">180</div>
+            </div>
         </div>
         <div class="caption2">
                 Your character
                 <div id="selectedHolder"></div>
         </div>    
-        <div id="enemy" class="caption3">
+        <div id="enemy" class="enemy">
             Enemies Available To Attack
             <div id="enemyHolder"></div>
         </div>
@@ -49,12 +51,12 @@
             Fight Section
             <div id="fighterHolder"></div>
         </div>
-
-        <button>Attack</button>
+        <button id="attack">Attack</button>
         <div id = "defender" class="caption3">Defender</div>
-        <div class="caption3"></div>
-        <div class="caption3"></div>
+        <div id = "result1" class="caption3"></div>
+        <div id = "result2" class="caption3"></div>
         <div></div>
         <button class="reset">Reset</button>
+        <div class = "defeated"></div>
     </div>
 </body>

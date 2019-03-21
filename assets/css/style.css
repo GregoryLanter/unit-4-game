@@ -4,10 +4,10 @@
 }*/
 #bg_image{
     width: 1350px;
-    height: 580px;
+    height: 625px;
     background-image: url(../images/bus.jpg);
     background-repeat: no-repeat;
-    background-size: 1350px 580px;
+    background-size: 100%;
 }
 
 #pic{
@@ -17,10 +17,18 @@
     padding: 20px;*/
 }
 
-#enemy{
+.enemy{
     clear: both;
-    height: 23px; /*152px;*/
+    height: 23px; 
     width: 390px;
+    color: white;
+}
+
+.enemyLarge{
+    clear: both;
+    height: 155px; 
+    width: 395px;
+    color: white;   
 }
 .caption1{
     color: white;
@@ -51,8 +59,15 @@
     color: white;
     font-size: 20px;
     height: 23px; /*153px;*/
+    width: 400px;
+}
+.defenderLarge{
+    color: white;
+    font-size: 20px;
+    height: 155px; /*153px;*/
     width: 130px;
 }
+
 .selected{
     color: black;
 }
@@ -69,4 +84,25 @@
 }
 .reset{
     display: none;
+}
+.resetOn{
+    display: inline;
+}
+#enemyHolder{
+    width: 393px;
+    height: 132px;
+    clear: both;
+}
+#attack{
+ clear: both;   
+}
+.defeated{
+    display: none;
+    float: right;
+    width: 393px;
+    height: 132px;
+}
+.fighters{
+    width: 525px;
+    height: 132px;
 }
