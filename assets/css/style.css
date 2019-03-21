@@ -2,14 +2,21 @@
     border-radius: 5px;
     border: 1px solid blue
 }*/
+
+/* background image formatting*/
 #bg_image{
-    width: 1350px;
-    height: 625px;
+    width: 1336px;
+    height: 604px;
     background-image: url(../images/bus.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
+    position: absolute;
+    z-index:-1;
+    top: 0px;
+    left: 0px;
 }
 
+/*format player pictures*/
 #pic{
     position: relative;
     left: 23px;
@@ -17,6 +24,8 @@
     padding: 20px;*/
 }
 
+/*enemy element needs to change size during the game */
+/*this is the formatting for the small size*/
 .enemy{
     clear: both;
     height: 23px; 
@@ -24,18 +33,23 @@
     color: white;
 }
 
+/*This is the large size enemy use when pictures are in the element*/
 .enemyLarge{
     clear: both;
     height: 155px; 
     width: 395px;
     color: white;   
 }
+
+/*Title formatting*/
 .caption1{
     color: white;
     font-size: 30px;
     position: relative;
-    left: 60%;
+    left: 1000px;
+    width: 230px;
 }
+/*Your character formatting */
 .caption2{
     color: white;
     font-size: 20px;
@@ -43,6 +57,8 @@
     width: 129px;
     height: 152px;
 }
+
+/*format the player cards*/
 .picHolder{
     float: left;    
     background-color: white;
@@ -50,17 +66,24 @@
     width: 125px;
     border: 3px solid green;
 }
+
+/*format the name on the player card*/
 .name{
     clear: both;
     text-align: center;
     font-size: 14px;
 }
+
+/*format for fight section heder*/
 .caption3{
     color: white;
     font-size: 20px;
     height: 23px; /*153px;*/
     width: 400px;
 }
+
+/*defender gets resized during operation this is the large formatting*/
+/*this will be used when a picture is in the element*/
 .defenderLarge{
     color: white;
     font-size: 20px;
@@ -68,41 +91,104 @@
     width: 130px;
 }
 
+/*use when a player card gets selected */
 .selected{
     color: black;
 }
+
+/*format the non selected player*/
 .notSelected{
     background-color: red;
     border-color: black;
 }
+
+/*formating for the enemy*/
 .fighter{
     background-color: black;
 }
+
+/*change the size of the selected player holder*/
 #selectedHolder{
     height: 128px;
-    width: 129px;
+    width: 775px; /*129px;*/
 }
+
+/*this is used to hide elements on the page*/
 .reset{
     display: none;
 }
+
+/*This is used to show the reset button*/
 .resetOn{
     display: inline;
 }
+
+/*format the div that holds the enemy cards*/
 #enemyHolder{
     width: 393px;
     height: 132px;
     clear: both;
 }
+
+/*format the attack button*/
 #attack{
  clear: both;   
 }
+
+/*format the div that holds the defeated play card*/
+/*once placed in this div the payer cards should be invisible to the user*/
 .defeated{
     display: none;
     float: right;
     width: 393px;
     height: 132px;
 }
+
+/*set size of the fighter div*/
 .fighters{
     width: 525px;
     height: 132px;
+}
+
+/*format the image to display on a loss a la splash screen style*/
+.splashLose{
+    width: 611px;
+    height: 474px;
+    margin: auto;
+    border: 3px solid black;
+    padding: 0px;
+    position: absolute;
+    z-index: auto;
+    top: 60px;
+    left: 30%;
+}
+
+/*format the image to display on a win a la splash screen style*/
+.splashWin{
+    width: 482px;
+    height: 384px;
+    margin: auto;
+    border: 3px solid black;
+    padding: 0px;
+    position: absolute;
+    z-index: auto;
+    top: 63px;
+    left: 33%;
+}
+
+/*format the words on top of the splash screen*/
+.banner{
+    background-color: white;
+    text-align: center;
+    width: 100%;
+}
+
+/*set width of the container */
+#container{
+    width:500px;
+}
+
+/*make sure our current fighter has white text*/
+#fightHolder{
+    color:white;
 }
