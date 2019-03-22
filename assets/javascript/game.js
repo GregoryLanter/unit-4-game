@@ -1,8 +1,8 @@
 $(document).ready(function() {
     /*declare our variables*/
     var kids = ["bart", "jimbo", "milhouse", "nelson"] //names of the players
-    var healthArr = [120,150,100,180]; // health of the players must be in same order as names
-    var attackArr = [8,12,10,9]; // attack of the players must be in same order as names
+    var healthArr = [120,150,100,140]; // health of the players must be in same order as names
+    var attackArr = [8,5,10,4]; // attack of the players must be in same order as names
     var counterAttackArr = [11,15,8,20]; // counter attack of the players must be in same order as names
     var classStr = "";
     var defeated = false;
@@ -193,8 +193,10 @@ $(document).ready(function() {
             $(".defeated").append($(tag));
             
             //get rid of the splash screen
-            $("#winner").addClass("reset")
+
+/*            $("#winner").addClass("reset");
             $("#loser").addClass("reset");
+            $(".selected").removeClass("selected");*/
         }
     }
 
@@ -219,7 +221,9 @@ $(document).ready(function() {
         $(".fighters").css("Height","132");
         $("#enemy").removeClass("enemyLarge").addClass("enemy");
         $("#defender").removeClass("defenderLarge");
-        
+        $("#winner").addClass("reset");
+        $("#loser").addClass("reset");
+        $(".selected").removeClass("selected");        
     };
 
     //function that will capitalize the first character in a string

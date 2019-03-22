@@ -1,7 +1,7 @@
-/**{
+*{
     border-radius: 5px;
     border: 1px solid blue
-}*/
+}
 
 /* background image formatting*/
 #bg_image{
@@ -31,7 +31,7 @@
     height: 23px; 
     width: 390px;
     color: white;
-    font-size: 21px;
+    font-size: 20px;
 }
 
 /*This is the large size enemy use when pictures are in the element*/
@@ -40,7 +40,7 @@
     height: 155px; 
     width: 395px;
     color: white;   
-    font-size: 21px;
+    font-size: 20px;
 }
 
 /*Title formatting*/
@@ -81,7 +81,7 @@
     color: white;
     font-size: 21px;
     height: 23px; /*153px;*/
-    width: 400px;
+    width: 700px;
 }
 
 /*defender gets resized during operation this is the large formatting*/
@@ -89,7 +89,7 @@
 .defenderLarge{
     color: white;
     font-size: 21px;
-    height: 155px; /*153px;*/
+    height: 157px; /*153px;*/
     width: 130px;
 }
 
@@ -102,11 +102,13 @@
 .notSelected{
     background-color: red;
     border-color: black;
+    color: white;
 }
 
 /*formating for the enemy*/
 .fighter{
     background-color: black;
+    color: white;
 }
 
 /*change the size of the selected player holder*/
@@ -193,4 +195,16 @@
 /*make sure our current fighter has white text*/
 #fightHolder{
     color:white;
+}
+
+.result1{
+    position: relative;
+    top: 5px;
+    margin: 1px;
+}
+
+.clearfix:after{ 
+    content: "";
+    display: table;
+    clear: both;
 }
