@@ -1,7 +1,7 @@
-/**{
+*{
     border-radius: 5px;
     border: 1px solid blue
-}*/
+}
 
 /* background image formatting*/
 #bg_image{
@@ -31,6 +31,7 @@
     height: 23px; 
     width: 390px;
     color: white;
+    font-size: 21px;
 }
 
 /*This is the large size enemy use when pictures are in the element*/
@@ -39,6 +40,7 @@
     height: 155px; 
     width: 395px;
     color: white;   
+    font-size: 21px;
 }
 
 /*Title formatting*/
@@ -52,7 +54,7 @@
 /*Your character formatting */
 .caption2{
     color: white;
-    font-size: 20px;
+    font-size: 21px;
     clear: both;
     width: 129px;
     height: 152px;
@@ -77,7 +79,7 @@
 /*format for fight section heder*/
 .caption3{
     color: white;
-    font-size: 20px;
+    font-size: 21px;
     height: 23px; /*153px;*/
     width: 400px;
 }
@@ -86,7 +88,7 @@
 /*this will be used when a picture is in the element*/
 .defenderLarge{
     color: white;
-    font-size: 20px;
+    font-size: 21px;
     height: 155px; /*153px;*/
     width: 130px;
 }
