@@ -10,3 +10,5 @@ The good news is you attack gets stronger every time you use it while there coun
 
 **Design Notes**
 We used jQuesey to interact with the DOM. We have 2 objects one for the fight that is an overall container and one that is for the player and contains the data for the players in the game. The fight object contains an array of character objects. We use the fact that we have a set number of charcters to choose from. Since we only have 4 characters we have a set of arrays used to store the starting health, attack, counter attack for each character and they are arranged so that the information for each boy can be found at the same index in each array. In thi program we are using the addClass and removeClass methods of jQuery to change formating of our elements as well as appendTo Method to move elements around the screen. 
+
+https://gregorylanter.github.io/unit-4-game/
